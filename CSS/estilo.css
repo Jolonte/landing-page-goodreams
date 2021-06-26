@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #151515;
+}
+
+button {
+    border: none;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f5f6fa;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #E8AE0E, #FFAB1C);
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #E87D0E , #CF710C);
+}
+
+button:active {
+    background-image: linear-gradient(to right, #7F7AFF , #8C64E8);
+}
+
+::selection {
+    background: #532EA3;
+    color: #CCBBF0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #151515;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #ffda29;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #FFAB1C;
+}
+
+/* ANIMAÇÕES */
+
+span#titulo {
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+text#info {
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+button#btn {
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+
+/* ANIMAÇÕES */
+
+/* ID'S */
+
+#logo {
+    font-size: 25px;
+    color: #ffda29;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#titulo {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#subtit {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+#info {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: 'PT Sans', sans-serif;
+    color: #f5f6fa;
+}
+
+#cor2 {
+    background: #1F1D4D;
+}
+
+#cor3 {
+    background: #322157;
+}
+
+#cor4 {
+    background: #301B3F;
+}
+/* ID'S */
+
+
+/* CLASSES*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 2496px 10vh;
+    grid-template-areas: "h h"
+                        "m m"
+                        "f f"
+}
+
+.margin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-height: 624px;
+}
+
+.submargin {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    max-width: 1146.63px;
+    height: 85%;
+    max-height: 531.67px;
+}
+
+.blc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 531.67px;
+}
+
+.conteudos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 80%;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.titcont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 15%;
+}
+
+.subblc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 70%;
+    height: 100%;
+}
+
+.subcont {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 100%;
+}
+
+.colunas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 33.33333333333333%;
+    height: 100%;
+}
+
+.linhas {
+    display: flex;
+    width: 100%;
+    max-width: 133.77px;
+    height: 30%;
+}
+
+.subtitulo {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.subtitulo.appear {
+    opacity: 1;
+}
+
+.texto {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #f5f6fa;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1146.63px;
+    height: 85%;
+    max-height: 85%;
+    margin: auto;
+}
+
+.titform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 15%;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+main form input {
+    background: #5650CC;   
+    width: 300px; 
+    height: 30px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: #f5f6fa;
+    font-size: 1rem;
+    border: 1px solid #B4B0FF;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    max-width: 130px;
+    height: 10%;
+    max-height: 46.5px;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 32px;
+    background: #6c63ff;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    transform: translate(70%);
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4;
+}
+
+main form input[type="submit"]:active {
+    background: #443FA1;
+}
+
+.rolar {
+    width: 100%;
+}
+
+.copright {
+    display: flex;
+    width: 100%;
+    max-width: 15%;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 100%;
+}
+
+.socials:first-child {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.socials {
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5%;
+    width: 40px;
+    height: 40px;
+    background: #412B70;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.socials:hover {
+    background: #BDA5F2;
+}
+
+.socials:active {
+    background: #F2D8BD;
+}
+
+/* CLASSES*/
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-height: 10vh;
+    background: #151515;
+    grid-area: h;
+    z-index: 100;
+}
+
+main {
+    grid-area: m;
+}
+
+footer {
+    background: #151515;
+    grid-area: f;
+}
