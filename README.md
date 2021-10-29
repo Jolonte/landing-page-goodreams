@@ -1,4 +1,6 @@
 # landing-page-goodreams
+![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/landing-page-goodreams)
+![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/landing-page-goodreams)
 
 <p align="center">
   <img width="600" src="assets/to_readme/splashtogithub.png"
