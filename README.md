@@ -1,7 +1,3 @@
-# landing-page-goodreams
-![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/landing-page-goodreams)
-![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/landing-page-goodreams)
-
 <p align="center">
   <img width="600" src="assets/to_readme/splashtogithub.png"
 </p>
@@ -9,7 +5,11 @@
 <p align="center">
   <img width="800" height="480" src="assets/to_readme/goodreams_git_1.gif"
 </p>
-
+  
+# landing-page-goodreams
+![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/landing-page-goodreams)
+![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/landing-page-goodreams)
+  
 ### Description
 The site uses [Html, CSS, PHP] technologies.
   
