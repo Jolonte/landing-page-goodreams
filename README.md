@@ -6,7 +6,6 @@
   <img width="800" height="480" src="assets/to_readme/goodreams_git_1.gif"
 </p>
   
-# landing-page-goodreams
 ![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/landing-page-goodreams)
 ![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/landing-page-goodreams)
   
